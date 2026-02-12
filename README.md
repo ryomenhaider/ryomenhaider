@@ -8,7 +8,6 @@
 - 🔭 I'm currently working on **exciting projects**
 - 🌱 I'm always **learning and growing** in technology
 - 👯 I'm looking to **collaborate** on innovative ideas
-- 💬 Ask me about **Jupyter Notebook**
 - 📫 How to reach me: **[@ryomenhaider](https://github.com/ryomenhaider)**
 
 ## 📊 GitHub Statistics
@@ -20,6 +19,19 @@
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ryomenhaider&theme=high-contrast&hide_border=true&bg_color=000000&color=ffffff&line=ffffff&point=ffffff" alt="GitHub Activity Graph" />
 </div>
+
+### 🛠️ Languages and Tools
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C8CBF?style=for-the-badge&logo=python&logoColor=white&labelColor=4C8CBF&color=4C8CBF)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white&labelColor=11557c&color=11557c)
+
+## 🏆 Achievements
+
+![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=ryomenhaider&theme=onedark&no-frame=true&no-bg=true&margin-w=4)
 
 ## 🏆 Featured Projects
 
