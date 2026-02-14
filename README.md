@@ -8,7 +8,6 @@
 - 🔭 I'm currently working on **exciting projects**
 - 🌱 I'm always **learning and growing** in technology
 - 👯 I'm looking to **collaborate** on innovative ideas
-- 📫 How to reach me: **[@ryomenhaider](https://github.com/ryomenhaider)**
 
 ## 📊 GitHub Statistics
 
