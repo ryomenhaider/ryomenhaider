@@ -56,7 +56,7 @@
 ---
 
 
-###  [Haider-Ali](https://github.com/ryomenhaider/vektor-detector)
+###  [Vektor-Detector](https://github.com/ryomenhaider/vektor-detector)
 
 > Real-time crypto market manipulation detector. Ingests live OHLCV data via CCXT, engineers 7 microstructure features (volume z-score, wick ratio, wash trading signals), and scores each candle using PyOD Isolation Forest. Fires Discord alerts when anomalies are detected. Deployed on Linux VPS with auto-restart.
 
