@@ -14,8 +14,18 @@
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white)
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-000000?style=for-the-badge&logo=jupyter-notebook&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-000000?style=for-the-badge&logo=jupyter&logoColor=white)
 
+![NumPy](https://img.shields.io/badge/NumPy-000000?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-000000?style=for-the-badge&logo=pandas&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-000000?style=for-the-badge&logo=scikitlearn&logoColor=white)
+
+![FastAPI](https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=white)
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-000000?style=for-the-badge&logo=plotly&logoColor=white)
+
+![Git](https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=white)
 </div>
 
 ##  GitHub Statistics
@@ -46,14 +56,15 @@
 ---
 
 
-###  [Haider-Ali](https://github.com/ryomenhaider/Haider-Ali)
+###  [Haider-Ali](https://github.com/ryomenhaider/vektor-detector)
 
-> My profile
+> Real-time crypto market manipulation detector. Ingests live OHLCV data via CCXT, engineers 7 microstructure features (volume z-score, wick ratio, wash trading signals), and scores each candle using PyOD Isolation Forest. Fires Discord alerts when anomalies are detected. Deployed on Linux VPS with auto-restart.
 
 <div align="left">
   
-![Stars](https://img.shields.io/github/stars/ryomenhaider/Haider-Ali?style=social) 
-![Forks](https://img.shields.io/github/forks/ryomenhaider/Haider-Ali?style=social) 
+![Stars](https://img.shields.io/github/stars/ryomenhaider/vektor-detector?style=social) 
+![Forks](https://img.shields.io/github/forks/ryomenhaider/vektor-detector?style=social) 
+![Language](https://img.shields.io/badge/Language-Python-000000?style=flat-square&logoColor=white)
 
 
 </div>
