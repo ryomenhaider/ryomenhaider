@@ -34,21 +34,96 @@ profile = {
 
 ---
 
-## `$ ls experience/`
+## `$ ls projects/`
 
 ```
-2024 — present   Financial Risk Analytics Platform    [ production ]
-                 ├─ Real-time market data ingestion from multiple APIs
-                 ├─ ML anomaly detection: Isolation Forest + Autoencoder
-                 ├─ Price forecasting: Prophet + XGBoost
-                 └─ Bloomberg-style interactive dashboard
+Financial-Risk-Analytics-ML-Platforms    [ production ]
+├─ Real-time market data ingestion from multiple APIs
+├─ ML anomaly detection: Isolation Forest + Autoencoder
+├─ Price forecasting: Prophet + XGBoost
+└─ Bloomberg-style interactive dashboard
 
-2024 — present   Vektor Detector                      [ deployed ]
-                 ├─ Live OHLCV data via CCXT
-                 ├─ 7 microstructure features engineered
-                 ├─ PyOD Isolation Forest scoring per candle
-                 └─ Discord alerts + Linux VPS w/ auto-restart
+VektorLabs                               [ private | deployed ]
+├─ Real-time crypto market surveillance across 50+ Binance markets
+├─ Detects whale activity, spoof walls & liquidity manipulation
+├─ Identifies high-probability setups before they appear on charts
+└─ Discord alerts with trigger & invalidation levels
+
+Order-Book-Engine                        [ deployed ]
+├─ Price-time priority limit order book in pure Python
+├─ Matching, cancellation & depth query
+└─ Live TUI interface
+
+Order-Book-Spoofing
+├─ Lightweight Python order book for visualizing spoof mechanics
+├─ Inject & delete spoof walls interactively
+└─ Live TUI for conceptual understanding
+
+crypto-exchange-simulation
+├─ Real-time crypto trading simulation
+├─ Binance-style interface with live BTC/USDT market data
+└─ Fully functional matching engine
 ```
+
+> _Note: TUI components across projects are AI-assisted. Core engine logic is handwritten._
+
+---
+
+## `$ cat projects/Financial-Risk-Analytics-ML-Platforms`
+
+### [`Financial-Risk-Analytics-ML-Platforms`](https://github.com/ryomenhaider/Financial-Risk-Analytics-ML-Platforms)
+
+> Production-grade Financial Intelligence Platform — real-time market data ingestion from multiple APIs, ML-based anomaly detection (Isolation Forest + Autoencoder), price movement forecasting (Prophet + XGBoost), and a Bloomberg-style interactive dashboard.
+
+![Stars](https://img.shields.io/github/stars/ryomenhaider/Financial-Risk-Analytics-ML-Platforms?style=flat-square)
+![Forks](https://img.shields.io/github/forks/ryomenhaider/Financial-Risk-Analytics-ML-Platforms?style=flat-square)
+![Language](https://img.shields.io/badge/Python-black?style=flat-square&logo=python&logoColor=white)
+
+---
+
+## `$ cat projects/VektorLabs`
+
+### `VektorLabs` *(private)*
+
+> Real-time crypto market surveillance system. Detects whale activity, spoof walls, liquidity manipulation, and high-probability setups across 50+ Binance markets before they appear on charts. Sends descriptive Discord alerts with trigger and invalidation levels.
+
+![Language](https://img.shields.io/badge/Python-black?style=flat-square&logo=python&logoColor=white)
+
+---
+
+## `$ cat projects/Order-Book-Engine`
+
+### [`Order-Book-Engine`](https://github.com/ryomenhaider/Order-Book-Engine)
+
+> Price-time priority limit order book engine with matching, cancellation, depth query, and a live TUI — built in pure Python.
+
+![Stars](https://img.shields.io/github/stars/ryomenhaider/Order-Book-Engine?style=flat-square)
+![Forks](https://img.shields.io/github/forks/ryomenhaider/Order-Book-Engine?style=flat-square)
+![Language](https://img.shields.io/badge/Python-black?style=flat-square&logo=python&logoColor=white)
+
+---
+
+## `$ cat projects/Order-Book-Spoofing`
+
+### [`Order-Book-Spoofing`](https://github.com/ryomenhaider/Order-Book-Spoofing)
+
+> A lightweight Python order book where you can inject and delete spoof walls to understand the spoofing concept visually in a live TUI.
+
+![Stars](https://img.shields.io/github/stars/ryomenhaider/Order-Book-Spoofing?style=flat-square)
+![Forks](https://img.shields.io/github/forks/ryomenhaider/Order-Book-Spoofing?style=flat-square)
+![Language](https://img.shields.io/badge/Python-black?style=flat-square&logo=python&logoColor=white)
+
+---
+
+## `$ cat projects/crypto-exchange-simulation`
+
+### [`crypto-exchange-simulation`](https://github.com/ryomenhaider/crypto-exchange-simulation)
+
+> A real-time crypto trading simulation with a Binance-style interface. Trade BTC/USDT using live market data from Binance with a fully functional matching engine.
+
+![Stars](https://img.shields.io/github/stars/ryomenhaider/crypto-exchange-simulation?style=flat-square)
+![Forks](https://img.shields.io/github/forks/ryomenhaider/crypto-exchange-simulation?style=flat-square)
+![Language](https://img.shields.io/badge/Python-black?style=flat-square&logo=python&logoColor=white)
 
 ---
 
@@ -79,28 +154,6 @@ profile = {
 
 ![Plotly](https://img.shields.io/badge/Plotly-000000?style=flat-square&logo=plotly&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-000000?style=flat-square&logo=jupyter&logoColor=white)
-
----
-
-## `$ cat projects/`
-
-### [`Financial-Risk-Analytics-ML-Platforms`](https://github.com/ryomenhaider/Financial-Risk-Analytics-ML-Platforms)
-
-> Production-grade financial intelligence platform — real-time market data ingestion, ML-based anomaly detection (Isolation Forest + Autoencoder), price movement forecasting (Prophet + XGBoost), and a Bloomberg-style interactive dashboard.
-
-![Stars](https://img.shields.io/github/stars/ryomenhaider/Financial-Risk-Analytics-ML-Platforms?style=flat-square)
-![Forks](https://img.shields.io/github/forks/ryomenhaider/Financial-Risk-Analytics-ML-Platforms?style=flat-square)
-![Language](https://img.shields.io/badge/Python-black?style=flat-square&logo=python&logoColor=white)
-
----
-
-### [`Vektor-Detector`](https://github.com/ryomenhaider/vektor-detector)
-
-> Real-time crypto market manipulation detector. Live OHLCV ingestion via CCXT, 7 microstructure features engineered (volume z-score, wick ratio, wash trading signals), PyOD Isolation Forest scoring per candle, Discord alerts, deployed on Linux VPS with auto-restart.
-
-![Stars](https://img.shields.io/github/stars/ryomenhaider/vektor-detector?style=flat-square)
-![Forks](https://img.shields.io/github/forks/ryomenhaider/vektor-detector?style=flat-square)
-![Language](https://img.shields.io/badge/Python-black?style=flat-square&logo=python&logoColor=white)
 
 ---
 
