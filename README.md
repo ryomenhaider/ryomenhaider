@@ -37,19 +37,19 @@ profile = {
 ## `$ ls projects/`
 
 ```
-Financial-Risk-Analytics-ML-Platforms    [ production ]
+Financial-Risk-Analytics-ML-Platforms
 ├─ Real-time market data ingestion from multiple APIs
 ├─ ML anomaly detection: Isolation Forest + Autoencoder
 ├─ Price forecasting: Prophet + XGBoost
 └─ Bloomberg-style interactive dashboard
 
-VektorLabs                               [ private | deployed ]
+VektorLabs                               [ private ]
 ├─ Real-time crypto market surveillance across 50+ Binance markets
 ├─ Detects whale activity, spoof walls & liquidity manipulation
 ├─ Identifies high-probability setups before they appear on charts
 └─ Discord alerts with trigger & invalidation levels
 
-Order-Book-Engine                        [ deployed ]
+Order-Book-Engine                       
 ├─ Price-time priority limit order book in pure Python
 ├─ Matching, cancellation & depth query
 └─ Live TUI interface
