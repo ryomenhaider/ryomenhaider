@@ -137,11 +137,11 @@ Price-time priority limit order book in pure Python
 ## `$ cat currently_learning.txt`
 
 ```
-[▓▓▓▓▓░░░░░]  Market microstructure theory     — Larry Harris, Trading & Exchanges
-[▓▓▓▓░░░░░░]  Order flow analysis & anomaly detection
-[▓▓▓░░░░░░░]  Statistical foundations           — time series, probability
-[▓▓▓▓▓▓░░░░]  Python systems engineering        — order book → market sim → spoof detector
-[▓▓▓░░░░░░░]  Production ML deployment patterns
+[▓▓▓▓▓░░░░░]  Quantitative Finance              — math-driven strategies & risk models
+[▓▓▓▓░░░░░░]  Hidden Markov Models (HMM)        — regime detection & state inference
+[▓▓▓▓▓░░░░░]  Statistics                        — probability, inference, distributions
+[▓▓▓▓░░░░░░]  Forecasting                       — time series, Prophet, XGBoost, ARIMA
+[▓▓▓░░░░░░░]  Finance Theory                    — market microstructure, order flow, pricing
 ```
 
 ---
