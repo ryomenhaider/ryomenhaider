@@ -9,11 +9,14 @@
 ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚══════╝╚═╝
 ```
 
-### Data Analytics & ML Engineer — Building Production Systems
+**`Data Analytics & ML Engineer — Building Production Systems`**
+
+> *I build systems that read markets — anomaly detectors, order flow analyzers, forecasting engines.*
+> *Ship fast. Learn deep. Stay in the terminal.*
 
 [![GitHub followers](https://img.shields.io/github/followers/ryomenhaider?label=Followers&style=flat-square&color=000&labelColor=fff)](https://github.com/ryomenhaider)
 [![Profile Views](https://komarev.com/ghpvc/?username=ryomenhaider&label=Profile+Views&color=000000&style=flat-square)](https://github.com/ryomenhaider)
-[![GitHub User's stars](https://img.shields.io/github/stars/ryomenhaider?label=Total+Stars&style=flat-square&color=000&labelColor=fff)](https://github.com/ryomenhaider)
+[![GitHub Stars](https://img.shields.io/github/stars/ryomenhaider?label=Total+Stars&style=flat-square&color=000&labelColor=fff)](https://github.com/ryomenhaider)
 
 </div>
 
@@ -25,45 +28,77 @@
 profile = {
     "name"       : "Haider Ali",
     "role"       : "Data Analytics & ML Engineer",
-    "focus"      : ["Market Intelligence", "Anomaly Detection", "Real-time Data Systems"],
-    "stack"      : ["Python", "Scikit-Learn", "FastAPI", "PostgreSQL", "Plotly"],
-    "currently"  : "Building production-grade financial intelligence platforms",
+    "focus"      : ["Market Microstructure", "Anomaly Detection", "Real-time Data Systems"],
+    "stack"      : ["Python", "Scikit-Learn", "FastAPI", "PostgreSQL", "Plotly Dash"],
+    "building"   : "Production-grade financial intelligence & market surveillance systems",
+    "studying"   : "Larry Harris — Trading & Exchanges | Order Flow | Time Series",
     "principle"  : "Ship systems that work. Learn what they're built on."
 }
 ```
 
 ---
 
-## `$ cat projects/`
+## `$ ls -la projects/`
 
+### 🔬 [`Financial-Intelligence-Platform`](https://github.com/ryomenhaider/Financial-Risk-Analytics-ML-Platforms)
 ```
-Financial-Risk-Analytics-ML-Platforms
-├─ Real-time market data ingestion from multiple APIs
-├─ ML anomaly detection: Isolation Forest + Autoencoder
-├─ Price forecasting: Prophet + XGBoost
-└─ Bloomberg-style interactive dashboard
+Production-grade financial intelligence platform
+├─ Ingests real-time market data from multiple APIs
+├─ ML anomaly detection — Isolation Forest + Autoencoder
+├─ Price forecasting — Prophet + XGBoost
+└─ Bloomberg-style interactive Plotly Dash dashboard
+   └─ Pages: Market Overview · Anomaly Intelligence · Forecasting
+              Sentiment Analysis · Capital Allocation
+```
+`Python` `FastAPI` `PostgreSQL` `Scikit-Learn` `Prophet` `XGBoost` `Plotly Dash`
 
-VektorLabs                               [ private ]
-├─ Real-time crypto market surveillance across 50+ Binance markets
+---
+
+### 📡 [`VektorLabs — Market Surveillance`](https://github.com/ryomenhaider/VektorLabs) `[ v1 · v2 ]`
+```
+VektorLabs v1 — Real-time Crypto Surveillance
+├─ Monitors 50+ Binance markets simultaneously
 ├─ Detects whale activity, spoof walls & liquidity manipulation
 ├─ Identifies high-probability setups before they appear on charts
 └─ Discord alerts with trigger & invalidation levels
 
-Order-Book-Engine
-├─ Price-time priority limit order book in pure Python
-├─ Matching, cancellation & depth query
-└─ Live TUI interface
-
-Order-Book-Spoofing
-├─ Lightweight Python order book for visualizing spoof mechanics
-├─ Inject & delete spoof walls interactively
-└─ Live TUI for conceptual understanding
-
-crypto-exchange-simulation
-├─ Real-time crypto trading simulation
-├─ Binance-style interface with live BTC/USDT market data
-└─ Fully functional matching engine
+VektorLabs v2 — Market Regime Classifier
+├─ Real-time crypto futures regime detection
+├─ Market microstructure signals + online machine learning
+└─ Detects institutional order flow shifts as they happen
 ```
+`Python` `CCXT` `Binance API` `Online ML` `Discord Webhooks`
+
+---
+
+### 📊 [`PrepX`](https://github.com/ryomenhaider/PrepX)
+```
+One-line DataFrame cleaning and EDA for pandas
+├─ Simplify data preprocessing with quick cleaning functions
+└─ Exploratory analysis tools — fast, composable, minimal
+```
+`Python` `Pandas` `NumPy`
+
+---
+
+### 📈 [`Crypto-Trading-Simulation`](https://github.com/ryomenhaider/crypto-exchange-simulation)
+```
+Real-time crypto trading simulation
+├─ Binance-style interface with live BTC/USDT market data
+└─ Fully functional matching engine under the hood
+```
+`Python` `Binance API` `WebSockets`
+
+---
+
+### ⚙️ [`OrderBook-Engine`](https://github.com/ryomenhaider/Order-Book-Engine)
+```
+Price-time priority limit order book in pure Python
+├─ Matching, cancellation & depth query
+├─ Live TUI interface
+└─ Built from scratch — no shortcuts
+```
+`Python` `Pure Systems` `TUI`
 
 ---
 
@@ -89,6 +124,8 @@ crypto-exchange-simulation
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=flat-square&logo=postgresql&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-000000?style=flat-square&logo=linux&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-000000?style=flat-square&logo=nginx&logoColor=white)
+![systemd](https://img.shields.io/badge/systemd-000000?style=flat-square&logo=linux&logoColor=white)
 
 **Visualization**
 
@@ -100,11 +137,11 @@ crypto-exchange-simulation
 ## `$ cat currently_learning.txt`
 
 ```
-[ ] Market microstructure theory        — Larry Harris, Trading & Exchanges
-[ ] Order flow analysis & anomaly detection
-[ ] Statistical foundations             — time series, probability
-[ ] Python systems engineering          — order book engine → market simulator → spoof detector
-[ ] Production ML deployment patterns
+[▓▓▓▓▓░░░░░]  Market microstructure theory     — Larry Harris, Trading & Exchanges
+[▓▓▓▓░░░░░░]  Order flow analysis & anomaly detection
+[▓▓▓░░░░░░░]  Statistical foundations           — time series, probability
+[▓▓▓▓▓▓░░░░]  Python systems engineering        — order book → market sim → spoof detector
+[▓▓▓░░░░░░░]  Production ML deployment patterns
 ```
 
 ---
@@ -113,26 +150,18 @@ crypto-exchange-simulation
 
 <div align="center">
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ryomenhaider&theme=dark&hide_border=true&background=000000&stroke=333333&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=aaaaaa&sideLabels=aaaaaa&dates=555555)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ryomenhaider&theme=dark&hide_border=true&background=000000&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=555555)
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ryomenhaider&theme=high-contrast&hide_border=true&bg_color=000000&color=ffffff&line=ffffff&point=ffffff)
-
-</div>
-
----
-
-## `$ ping haider`
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ryomenhaider)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ryomenhaider&layout=compact&theme=dark&hide_border=true&bg_color=000000&title_color=ffffff&text_color=aaaaaa)
 
 </div>
 
 ---
 
 <div align="center">
-<sub>
-Systems built on real understanding. No shortcuts.
-</sub>
+
+```
+[ systems over slides. first principles over frameworks. terminal over GUI. ]
+```
+
 </div>
