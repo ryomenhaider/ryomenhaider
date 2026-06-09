@@ -9,30 +9,65 @@
 ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚══════╝╚═╝
 ```
 
-**`Data Analytics & ML Engineer — Building Production Systems`**
-
-> *I build systems that read markets — anomaly detectors, order flow analyzers, forecasting engines.*
-> *Ship fast. Learn deep. Stay in the terminal.*
+**`ML Engineer in Training · Building from First Principles · Lahore, Pakistan`**
 
 [![GitHub followers](https://img.shields.io/github/followers/ryomenhaider?label=Followers&style=flat-square&color=000&labelColor=fff)](https://github.com/ryomenhaider)
 [![Profile Views](https://komarev.com/ghpvc/?username=ryomenhaider&label=Profile+Views&color=000000&style=flat-square)](https://github.com/ryomenhaider)
 [![GitHub Stars](https://img.shields.io/github/stars/ryomenhaider?label=Total+Stars&style=flat-square&color=000&labelColor=fff)](https://github.com/ryomenhaider)
-[![Rankistan rank badge](https://img.shields.io/endpoint?url=https%3A%2F%2Frankistan-summary-api.academics-ali.workers.dev%2Fapi%2Fbadge%2Fryomenhaider&style=for-the-badge)](https://rankistan.dev)
+[![Rankistan](https://img.shields.io/endpoint?url=https%3A%2F%2Frankistan-summary-api.academics-ali.workers.dev%2Fapi%2Fbadge%2Fryomenhaider&style=for-the-badge)](https://rankistan.dev)
+
 </div>
 
 ---
 
 ## `$ whoami`
 
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║  Haider Ali · 19 · Self-Taught · No Degree · No Bootcamp            ║
+║  Lahore, Pakistan                                                    ║
+╠══════════════════════════════════════════════════════════════════════╣
+║                                                                      ║
+║  I'm building toward production ML engineering from the ground up.  ║
+║  No shortcuts. No wrappers. The actual thing.                        ║
+║                                                                      ║
+║  My path started with failure — publicly, in the AI automation      ║
+║  wave. I didn't pivot. I diagnosed exactly why it collapsed,         ║
+║  then went deeper: calculus, linear algebra, probability theory,     ║
+║  systems design, software architecture. Two years of real market     ║
+║  exposure built the intuition. First-principles study built          ║
+║  the foundation.                                                     ║
+║                                                                      ║
+║  Every concept I touch — statistical test, gradient descent,         ║
+║  data pipeline — I implement from scratch before I use the           ║
+║  standard library. I don't move forward until I own the math.        ║
+║  This isn't ideology. It's how I know the difference between         ║
+║  understanding something and just using it.                          ║
+║                                                                      ║
+║  I think in systems. I work slowly and correctly. I take the         ║
+║  quality of what I ship personally. If I can't explain why           ║
+║  something is built the way it is — I don't ship it.                ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## `$ cat identity.txt`
+
 ```python
-profile = {
-    "name"       : "Haider Ali",
-    "role"       : "Data Analytics & ML Engineer",
-    "focus"      : ["Market Microstructure", "Anomaly Detection", "Real-time Data Systems"],
-    "stack"      : ["Python", "Scikit-Learn", "FastAPI", "PostgreSQL", "Plotly Dash"],
-    "building"   : "Production-grade financial intelligence & market surveillance systems",
-    "studying"   : "Larry Harris — Trading & Exchanges | Order Flow | Time Series",
-    "principle"  : "Ship systems that work. Learn what they're built on."
+haider = {
+    "age"          : 19,
+    "location"     : "Lahore, Pakistan",
+    "background"   : "Self-taught. No degree. No bootcamp.",
+    "experience"   : "2 years market exposure → structural failure → deliberate rebuild",
+    "approach"     : "First principles. Implement before you import.",
+    "working_on"   : ["Statitude — open-source statistical computing library",
+                      "Structured ML engineering roadmap (data → classical ML → infra → LLMs → MLOps)"],
+    "interests"    : ["Market microstructure", "Real-time inference", "Statistical computing",
+                      "Systems design", "Quantitative methods"],
+    "non_goals"    : ["Trend chasing", "Tutorial-driven projects", "Demo-only work"],
+    "operating_principle" : "If it only lives on localhost, it doesn't exist."
 }
 ```
 
@@ -42,63 +77,79 @@ profile = {
 
 ### 🔬 [`Financial-Intelligence-Platform`](https://github.com/ryomenhaider/Financial-Risk-Analytics-ML-Platforms)
 ```
-Production-grade financial intelligence platform
-├─ Ingests real-time market data from multiple APIs
-├─ ML anomaly detection — Isolation Forest + Autoencoder
-├─ Price forecasting — Prophet + XGBoost
-└─ Bloomberg-style interactive Plotly Dash dashboard
-   └─ Pages: Market Overview · Anomaly Intelligence · Forecasting
-              Sentiment Analysis · Capital Allocation
+╔─ Production-grade financial intelligence platform ─────────────────╗
+│                                                                     │
+│  ├─ Real-time market data ingestion from multiple APIs              │
+│  ├─ ML anomaly detection — Isolation Forest + Autoencoder           │
+│  ├─ Price forecasting — Prophet + XGBoost                           │
+│  └─ Bloomberg-style Plotly Dash dashboard                           │
+│     └─ Market Overview · Anomaly Intelligence · Forecasting         │
+│        Sentiment Analysis · Capital Allocation                      │
+╚─────────────────────────────────────────────────────────────────────╝
 ```
 `Python` `FastAPI` `PostgreSQL` `Scikit-Learn` `Prophet` `XGBoost` `Plotly Dash`
 
 ---
 
-### 📡 [`VektorLabs — Market Surveillance`](https://github.com/ryomenhaider/VektorLabs) `[ v1 · v2 ]`
+### 📐 [`Statitude`](https://github.com/ryomenhaider/statitude) ← `[ active ]`
 ```
-VektorLabs v1 — Real-time Crypto Surveillance
-├─ Monitors 50+ Binance markets simultaneously
-├─ Detects whale activity, spoof walls & liquidity manipulation
-├─ Identifies high-probability setups before they appear on charts
-└─ Discord alerts with trigger & invalidation levels
+╔─ Open-source statistical computing library ────────────────────────╗
+│                                                                     │
+│  Built because I wanted to own the math before I used the module.  │
+│                                                                     │
+│  ├─ Statistical tests, distributions, and inference tools           │
+│  ├─ Every method implemented from mathematical first principles     │
+│  ├─ Readable internals — the source is the documentation            │
+│  └─ Designed for people who want to understand, not just compute    │
+╚─────────────────────────────────────────────────────────────────────╝
+```
+`Python` `NumPy` `Mathematics`
 
-VektorLabs v2 — Market Regime Classifier
-├─ Real-time crypto futures regime detection
-├─ Market microstructure signals + online machine learning
-└─ Detects institutional order flow shifts as they happen
+---
+
+### 📡 [`VektorLabs`](https://github.com/ryomenhaider/VektorLabs) `[ v1 · v2 ]`
+```
+╔─ Market Surveillance System ───────────────────────────────────────╗
+│                                                                     │
+│  v1 — Real-time Crypto Surveillance                                 │
+│  ├─ Monitors 50+ Binance markets simultaneously                     │
+│  ├─ Detects whale activity, spoof walls & liquidity manipulation    │
+│  ├─ Identifies high-probability setups before they appear on charts │
+│  └─ Discord alerts with trigger & invalidation levels               │
+│                                                                     │
+│  v2 — Market Regime Classifier                                      │
+│  ├─ Real-time crypto futures regime detection                       │
+│  ├─ Market microstructure signals + online machine learning         │
+│  └─ Detects institutional order flow shifts as they happen          │
+╚─────────────────────────────────────────────────────────────────────╝
 ```
 `Python` `CCXT` `Binance API` `Online ML` `Discord Webhooks`
 
 ---
 
-### 📊 [`PrepX`](https://github.com/ryomenhaider/PrepX)
-```
-One-line DataFrame cleaning and EDA for pandas
-├─ Simplify data preprocessing with quick cleaning functions
-└─ Exploratory analysis tools — fast, composable, minimal
-```
-`Python` `Pandas` `NumPy`
-
----
-
-### 📈 [`Crypto-Trading-Simulation`](https://github.com/ryomenhaider/crypto-exchange-simulation)
-```
-Real-time crypto trading simulation
-├─ Binance-style interface with live BTC/USDT market data
-└─ Fully functional matching engine under the hood
-```
-`Python` `Binance API` `WebSockets`
-
----
-
 ### ⚙️ [`OrderBook-Engine`](https://github.com/ryomenhaider/Order-Book-Engine)
 ```
-Price-time priority limit order book in pure Python
-├─ Matching, cancellation & depth query
-├─ Live TUI interface
-└─ Built from scratch — no shortcuts
+╔─ Limit Order Book in Pure Python ──────────────────────────────────╗
+│                                                                     │
+│  Price-time priority matching engine — written from scratch.        │
+│  ├─ Full matching, cancellation & depth query                       │
+│  ├─ Live TUI interface                                              │
+│  └─ No shortcuts. Look under the hood.                              │
+╚─────────────────────────────────────────────────────────────────────╝
 ```
-`Python` `Pure Systems` `TUI`
+`Python` `Systems` `TUI`
+
+---
+
+### 📊 [`PrepX`](https://github.com/ryomenhaider/PrepX) · [`Crypto-Trading-Simulation`](https://github.com/ryomenhaider/crypto-exchange-simulation)
+```
+PrepX                                 Crypto-Trading-Simulation
+─────────────────────────────────     ──────────────────────────────────
+One-line DataFrame cleaning & EDA     Real-time crypto trading sim
+├─ Fast, composable, minimal          ├─ Binance-style live interface
+└─ Built for people who hate          └─ Functional matching engine
+   boilerplate preprocessing             running underneath
+```
 
 ---
 
@@ -134,14 +185,83 @@ Price-time priority limit order book in pure Python
 
 ---
 
-## `$ cat currently_learning.txt`
+## `$ cat roadmap.log`
 
 ```
-[▓▓▓▓▓░░░░░]  Quantitative Finance              — math-driven strategies & risk models
-[▓▓▓▓░░░░░░]  Hidden Markov Models (HMM)        — regime detection & state inference
-[▓▓▓▓▓░░░░░]  Statistics                        — probability, inference, distributions
-[▓▓▓▓░░░░░░]  Forecasting                       — time series, Prophet, XGBoost, ARIMA
-[▓▓▓░░░░░░░]  Finance Theory                    — market microstructure, order flow, pricing
+The path I'm executing — publicly, in order, with no skipped steps.
+
+PHASE 01 — MATHEMATICAL FOUNDATION              [██████████░░░░░] in progress
+  ├─ Calculus (derivatives, integration, multivariate)
+  ├─ Linear Algebra (vectors, matrices, decompositions)
+  ├─ Probability Theory & Statistical Inference
+  └─ Optimization Theory (gradient descent from scratch)
+
+PHASE 02 — CLASSICAL ML SYSTEMS                 [████░░░░░░░░░░░] building
+  ├─ Supervised learning — implemented, not imported
+  ├─ Unsupervised & anomaly detection methods
+  ├─ Statistical computing library (Statitude)
+  └─ End-to-end ML pipelines with real data
+
+PHASE 03 — DATA INFRASTRUCTURE                  [███░░░░░░░░░░░░] early
+  ├─ Data pipelines, ingestion, transformation
+  ├─ Streaming systems & real-time data architecture
+  └─ Storage, indexing, and query optimization
+
+PHASE 04 — PRODUCTION ML ENGINEERING            [░░░░░░░░░░░░░░░] ahead
+  ├─ Model serving & real-time inference
+  ├─ MLOps — monitoring, versioning, retraining
+  └─ LLM applications on real infrastructure
+
+PHASE 05 — INTELLIGENT SYSTEMS                  [░░░░░░░░░░░░░░░] the destination
+  └─ Systems where bad models have real consequences
+```
+
+---
+
+## `$ cat currently_studying.txt`
+
+```
+MATHEMATICS
+  ├─ Multivariate calculus — partial derivatives, gradients, chain rule
+  ├─ Matrix calculus — Jacobians, Hessians
+  └─ Probability — distributions, inference, hypothesis testing
+
+MACHINE LEARNING
+  ├─ Autograd from first principles (Python implementation)
+  ├─ Backpropagation — deriving, not memorizing
+  └─ Weight initialization, architecture decisions
+
+DOMAIN KNOWLEDGE
+  ├─ Larry Harris — Trading & Exchanges
+  ├─ Market microstructure & order flow
+  └─ Time series analysis — ARIMA, Prophet, structural breaks
+
+BUILDING
+  └─ Statitude — statistical computing library, open source
+```
+
+---
+
+## `$ cat philosophy.txt`
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                  │
+│   I failed publicly. I diagnosed why. I went deeper.            │
+│   Most people pivot. I built the foundation.                    │
+│                                                                  │
+│   There are two kinds of engineers:                             │
+│   those who use tools and those who understand them.            │
+│   I'm building toward the second kind.                          │
+│                                                                  │
+│   I'm at the beginning of something I've thought about          │
+│   seriously for a long time.                                    │
+│                                                                  │
+│   If you're building something real — in ML, data               │
+│   infrastructure, or intelligent systems — and you want         │
+│   a genuine technical conversation, I'm interested.             │
+│                                                                  │
+└─────────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -161,7 +281,10 @@ Price-time priority limit order book in pure Python
 <div align="center">
 
 ```
-[ systems over slides. first principles over frameworks. terminal over GUI. ]
+[ precision over speed · systems over slides · understanding over familiarity ]
+[ first principles · everything deployed · nothing to be ashamed of under the hood ]
 ```
+
+*19 · Self-taught · Lahore, Pakistan · Building in public*
 
 </div>
