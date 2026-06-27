@@ -24,14 +24,14 @@
 
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
-║  Haider Ali · 19 · Self-Taught · No Degree · No Bootcamp            ║
+║  Haider Ali · 19 · Self-Taught · No Degree · No Bootcamp             ║
 ║  Lahore, Pakistan                                                    ║
 ╠══════════════════════════════════════════════════════════════════════╣
 ║                                                                      ║
-║  I'm building toward production ML engineering from the ground up.  ║
+║  I'm building toward production ML engineering from the ground up.   ║
 ║  No shortcuts. No wrappers. The actual thing.                        ║
 ║                                                                      ║
-║  My path started with failure — publicly, in the AI automation      ║
+║  My path started with failure — publicly, in the AI automation       ║
 ║  wave. I didn't pivot. I diagnosed exactly why it collapsed,         ║
 ║  then went deeper: calculus, linear algebra, probability theory,     ║
 ║  systems design, software architecture. Two years of real market     ║
@@ -46,7 +46,7 @@
 ║                                                                      ║
 ║  I think in systems. I work slowly and correctly. I take the         ║
 ║  quality of what I ship personally. If I can't explain why           ║
-║  something is built the way it is — I don't ship it.                ║
+║  something is built the way it is — I don't ship it.                 ║
 ║                                                                      ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
@@ -94,14 +94,14 @@ haider = {
 ### 📐 [`Statitude`](https://github.com/ryomenhaider/statitude) ← `[ active ]`
 ```
 ╔─ Open-source statistical computing library ────────────────────────╗
-│                                                                     │
+│                                                                    │
 │  Built because I wanted to own the math before I used the module.  │
-│                                                                     │
-│  ├─ Statistical tests, distributions, and inference tools           │
-│  ├─ Every method implemented from mathematical first principles     │
-│  ├─ Readable internals — the source is the documentation            │
-│  └─ Designed for people who want to understand, not just compute    │
-╚─────────────────────────────────────────────────────────────────────╝
+│                                                                    │
+│  ├─ Statistical tests, distributions, and inference tools          │
+│  ├─ Every method implemented from mathematical first principles    │
+│  ├─ Readable internals — the source is the documentation           │
+│  └─ Designed for people who want to understand, not just comput    │
+╚────────────────────────────────────────────────────────────────────╝
 ```
 `Python` `NumPy` `Mathematics`
 
@@ -109,7 +109,7 @@ haider = {
 
 ### 📡 [`VektorLabs`](https://github.com/ryomenhaider/VektorLabs) `[ v1 · v2 ]`
 ```
-╔─ Market Surveillance System ───────────────────────────────────────╗
+╔─ Market Surveillance System ────────────────────────────────────────╗
 │                                                                     │
 │  v1 — Real-time Crypto Surveillance                                 │
 │  ├─ Monitors 50+ Binance markets simultaneously                     │
@@ -129,7 +129,7 @@ haider = {
 
 ### ⚙️ [`OrderBook-Engine`](https://github.com/ryomenhaider/Order-Book-Engine)
 ```
-╔─ Limit Order Book in Pure Python ──────────────────────────────────╗
+╔─ Limit Order Book in Pure Python ───────────────────────────────────╗
 │                                                                     │
 │  Price-time priority matching engine — written from scratch.        │
 │  ├─ Full matching, cancellation & depth query                       │
