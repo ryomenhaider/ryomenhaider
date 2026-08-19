@@ -1,3 +1,5 @@
+<div align="center">
+
 ```
 ██╗  ██╗ █████╗ ██╗██████╗ ███████╗██████╗      █████╗ ██╗     ██╗
 ██║  ██║██╔══██╗██║██╔══██╗██╔════╝██╔══██╗    ██╔══██╗██║     ██║
@@ -10,7 +12,6 @@
 **`ML Engineer in Training · Building from First Principles · Lahore, Pakistan`**
 
 ---
-<div align="center">
 
 ```
 [ precision over speed · systems over slides · understanding over familiarity ]
